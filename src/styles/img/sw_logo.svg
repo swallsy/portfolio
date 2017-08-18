@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="68px" viewBox="0 0 110 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>SW Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-335.000000, -335.000000)" fill="#FFFFFF">
+            <g id="Group-7" transform="translate(135.000000, 2.000000)">
+                <path d="M227.377512,339.752 C224.689512,336.104 220.369512,333.8 215.569512,333.8 C207.409512,333.8 200.785512,340.424 200.785512,348.584 C200.785512,356.552 207.217512,363.08 215.185512,363.272 L200.113512,393.224 C203.665512,397.928 209.233512,401 215.569512,401 C226.225512,401 234.769512,392.36 234.769512,381.704 C234.769512,371.24 226.417512,362.696 215.953512,362.504 L227.377512,339.752 Z M309.097768,333.8 L289.417768,401 L278.857768,381.416 L268.297768,401 L248.617768,333.8 L309.097768,333.8 Z" id="SW-Copy"></path>
+            </g>
+        </g>
+    </g>
+</svg>

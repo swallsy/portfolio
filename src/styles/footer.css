@@ -1,0 +1,16 @@
+
+.solid-footer {
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+
+.solid-footer p {
+  line-height: 80px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#footer-image {
+  bottom: -2px;
+}

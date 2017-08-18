@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: 'Lato';
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 4em;
+  font-family: 'Lato';
+  font-weight: bold;
+}
+
+
+h3 {
+  font-size: 3em;
+  font-family: 'Lato';
+}
+
+h4 {
+  font-size: 2em;
+  font-family: 'Lato';
+}
+
+h5 {
+  font-size: 1.2em;
+  font-family: 'Lato';
+}

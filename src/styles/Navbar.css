@@ -1,0 +1,36 @@
+#navigation-area {
+  background-color: black;
+  height: 80px;
+  display: flex;
+  justify-content:  center;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, .8);
+  line-height: 80px;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-size: 16px;
+  font-family: 'Lato';
+  letter-spacing: .5em;
+}
+
+.nav-link:hover {
+  color: white;
+
+}
+
+#last-item {
+  padding-right: 1em;
+}
+
+@media screen and (max-device-width: 545px)  {
+  #navigation-area {
+    display: flex;
+    flex-direction: column;
+    color: red;
+  }
+}

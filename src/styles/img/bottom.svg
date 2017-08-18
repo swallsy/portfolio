@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="931px" height="773px" viewBox="0 0 931 773" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-214.000000, -3735.000000)">
+            <g id="Group-8" transform="translate(214.000000, 3736.000000)">
+                <g id="bottom.triangles">
+                    <polygon id="Triangle-1" fill-opacity="0.538439764" fill="#C3BAC6" transform="translate(252.963855, 321.500000) scale(-1, -1) translate(-252.963855, -321.500000) " points="252.963855 257 337.927711 386 168 386"></polygon>
+                    <polygon id="Triangle-1" fill="#55CCC2" transform="translate(422.963855, 321.500000) scale(-1, -1) translate(-422.963855, -321.500000) " points="422.963855 257 507.927711 386 338 386"></polygon>
+                    <polygon id="Triangle-1" stroke="#000000" fill="#000000" transform="translate(422.963855, 64.500000) scale(-1, -1) translate(-422.963855, -64.500000) " points="422.963855 0 507.927711 129 338 129"></polygon>
+                    <polygon id="Triangle-1" fill="#55CCC2" transform="translate(422.963855, 193.500000) scale(-1, 1) translate(-422.963855, -193.500000) " points="422.963855 129 507.927711 258 338 258"></polygon>
+                    <polygon id="Triangle-1" fill="#C3BAC6" transform="translate(252.963855, 193.500000) scale(-1, 1) translate(-252.963855, -193.500000) " points="252.963855 129 337.927711 258 168 258"></polygon>
+                    <polygon id="Triangle-1" fill="#55CBC2" transform="translate(168.963855, 193.500000) scale(-1, -1) translate(-168.963855, -193.500000) " points="168.963855 129 253.927711 258 84 258"></polygon>
+                    <path d="M289.902939,201.970538 L337.963855,129 L422.927711,258 L253,258 C253,258 265.872481,238.455807 289.902939,201.970538 Z" id="Triangle-1" fill="#E64E4E" transform="translate(337.963855, 193.500000) scale(-1, -1) translate(-337.963855, -193.500000) "></path>
+                    <polygon id="Triangle-1" fill="#C3BAC6" points="337.963855 0 422.927711 129 253 129"></polygon>
+                    <polygon id="Triangle-1" fill="#000000" transform="translate(84.963855, 323.500000) scale(-1, -1) translate(-84.963855, -323.500000) " points="84.9638554 259 169.927711 388 0 388"></polygon>
+                    <polygon id="Triangle-1" fill="#55CBC2" transform="translate(338.963855, 450.500000) scale(-1, -1) translate(-338.963855, -450.500000) " points="338.963855 386 423.927711 515 254 515"></polygon>
+                    <polygon id="Triangle-1" fill="#E74E4E" transform="translate(423.963855, 578.500000) scale(-1, -1) translate(-423.963855, -578.500000) " points="423.963855 514 508.927711 643 339 643"></polygon>
+                    <polygon id="Triangle-1" fill-opacity="0.411033741" fill="#E74E4E" transform="translate(508.963855, 578.500000) scale(-1, 1) translate(-508.963855, -578.500000) " points="508.963855 514 593.927711 643 424 643"></polygon>
+                    <polygon id="Triangle-1" fill="#C3BAC6" transform="translate(338.963855, 707.500000) scale(-1, -1) translate(-338.963855, -707.500000) " points="338.963855 643 423.927711 772 254 772"></polygon>
+                    <polygon id="Triangle-1" fill="#4A4A4A" transform="translate(338.963855, 578.500000) scale(-1, 1) translate(-338.963855, -578.500000) " points="338.963855 514 423.927711 643 254 643"></polygon>
+                    <polygon id="Triangle-1" fill="#000000" transform="translate(254.963855, 706.500000) scale(-1, 1) translate(-254.963855, -706.500000) " points="254.963855 642 339.927711 771 170 771"></polygon>
+                    <polygon id="Triangle-1" fill="#C3BAC6" transform="translate(592.963855, 450.500000) scale(-1, 1) translate(-592.963855, -450.500000) " points="592.963855 386 677.927711 515 508 515"></polygon>
+                    <polygon id="Triangle-1" fill="#C3BAC6" transform="translate(507.963855, 193.500000) scale(-1, -1) translate(-507.963855, -193.500000) " points="507.963855 129 592.927711 258 423 258"></polygon>
+                    <polygon id="Triangle-1" fill="#C3BAC6" transform="translate(592.963855, 321.500000) scale(-1, -1) translate(-592.963855, -321.500000) " points="592.963855 257 677.927711 386 508 386"></polygon>
+                    <polygon id="Triangle-1" fill="#000000" transform="translate(592.963855, 193.500000) scale(-1, 1) translate(-592.963855, -193.500000) " points="592.963855 129 677.927711 258 508 258"></polygon>
+                    <polygon id="Triangle-1" fill="#C3BAC6" transform="translate(84.963855, 194.500000) scale(-1, 1) translate(-84.963855, -194.500000) " points="84.9638554 130 169.927711 259 5.68434189e-14 259"></polygon>
+                    <polygon id="Triangle-1" fill="#4A4A4A" transform="translate(845.963855, 321.500000) scale(-1, 1) translate(-845.963855, -321.500000) " points="845.963855 257 930.927711 386 761 386"></polygon>
+                    <polygon id="Triangle-1" fill="#23222F" transform="translate(845.963855, 449.500000) scale(-1, -1) translate(-845.963855, -449.500000) " points="845.963855 385 930.927711 514 761 514"></polygon>
+                    <polygon id="Triangle-1" fill="#55CBC2" transform="translate(759.963855, 322.500000) scale(-1, -1) translate(-759.963855, -322.500000) " points="759.963855 258 844.927711 387 675 387"></polygon>
+                    <polygon id="Triangle-1" fill="#55CBC2" transform="translate(761.963855, 193.500000) scale(-1, 1) translate(-761.963855, -193.500000) " points="761.963855 129 846.927711 258 677 258"></polygon>
+                    <polygon id="Triangle-1" fill-opacity="0.487488678" fill="#C3BAC6" transform="translate(677.963855, 450.500000) scale(-1, -1) translate(-677.963855, -450.500000) " points="677.963855 386 762.927711 515 593 515"></polygon>
+                    <polygon id="Triangle-1" fill="#E74E4E" transform="translate(677.963855, 321.500000) scale(-1, 1) translate(-677.963855, -321.500000) " points="677.963855 257 762.927711 386 593 386"></polygon>
+                </g>
+                <path d="M524.5,485.5 L526,487" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
