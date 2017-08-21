@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import "../styles/Navbar.css";
-import logo from "../styles/img/sw_logo.svg";
 
 
 export default class NavBar extends Component {

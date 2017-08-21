@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import {Link} from 'react-router-dom';
-import triangles from '../styles/img/main_header.svg';
+import triangles from '../styles/img/header_image.svg';
 
 import About from "./About.js";
 import Work from "./Work.js";
