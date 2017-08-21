@@ -5,13 +5,26 @@ import soundcloudImg from "../styles/img/soundcloud_player.png";
 import mysteryWordsImg from "../styles/img/mysteryword.png";
 import gabbleImg from "../styles/img/gabble.png";
 import magicShoppeImg from "../styles/img/Magic Shoppe.png";
+import etsyImg from "../styles/img/etsy.png";
 export default class Work extends Component {
 
   render () {
     return (
       <div id="work">
-
         <div className="container">
+
+          <div className="row project" >
+              <img className="d-block img-fluid col-md-8 project-img" src={etsyImg} alt="First slide" />
+              <div className="col-md-4" id="project-info">
+                  <h5>Etsy Homepage</h5>
+                  <p>As a class, we split into four groups. Each group was responsible for a section of the Etsy site. We leveraged Etsy's API to dynamically populate accordingly. My team focused on the Homepage and Navigation Menu. I specifically built the Carousel, Shop by Category, and Recent Review sections.</p>
+                  <p>Technologies: React, Bootstrap</p>
+                    <a href="http://etsy-project.surge.sh/" className="live-btn" target="_blank">Live Site</a>
+                    <a href="https://github.com/swallsy/Etsy-Project" className="github-btn" target="_blank">GitHub</a>
+              </div>
+          </div>
+
+
           <div className="row project">
               <img className="d-block img-fluid col-md-8 project-img" src={soundcloudImg} alt="First slide" />
               <div className="col-md-4" id="project-info">
@@ -41,7 +54,7 @@ export default class Work extends Component {
               <div className="col-md-4" id="project-info">
                   <h5>The Magic Shoppe: eCommerce Site</h5>
                   <p>As a group of four, we built a mini eCommerce site that sold "magical items". Users are able to browse the collection, read reviews and add an item to their cart. We built our database and hosted it on Heroku for all API calls.</p>
-                  <p>Built using Express, Node.js, React, and Bootstrap.</p>
+                  <p>Technologies: Express, Node.js, PostegreSQL, Sequelize, React, and Bootstrap.</p>
                       <a href="http://magicshoppe.surge.sh/" className="live-btn" target="_blank">Live Site</a>
                       <a href="https://github.com/swallsy/Magic-Shoppe-Project" className="github-btn" target="_blank" >GitHub</a>
               </div>
@@ -58,6 +71,10 @@ export default class Work extends Component {
                     <a href="https://github.com/swallsy/mystery_word_game" className="github-btn" target="_blank">GitHub</a>
               </div>
           </div>
+
+
+
+
             <a href="https://github.com/swallsy" className="view-more">View More On Github ></a>
         </div>
       </div>
