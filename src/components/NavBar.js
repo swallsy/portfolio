@@ -8,7 +8,7 @@ export default class NavBar extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <nav className="navbar row" id="navigation-area">
+        <div className="navbar row" id="navigation-area">
           <a href="#about" className="nav-link">
             ABOUT
           </a>
@@ -18,7 +18,7 @@ export default class NavBar extends Component {
           <a href="#contact" className="nav-link" id="last-item">
             CONTACT
           </a>
-        </nav>
+        </div>
       </div>
     );
   }

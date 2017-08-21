@@ -15,7 +15,7 @@ export default class Contact extends Component {
                 <p> Have questions or want to chat about a project? Feel free to drop a line via email, LinkedIn or Github. Thanks for checking out my portfolio!</p>
                 <div id="name-and-links">
                   <p id="name">Sara Morgan Wall<br/>
-                  Javascript Web Developer<br/>
+                  Front-End Developer<br/>
                   smwall84@gmail.com</p>
                   <div id="icons">
                     <a href="https://github.com/swallsy"><i className="fa fa-github-square social-icons" id="github" aria-hidden="true"></i></a>
