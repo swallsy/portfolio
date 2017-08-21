@@ -42,7 +42,7 @@ export default class Work extends Component {
                   <h5>The Magic Shoppe: eCommerce Site</h5>
                   <p>As a group of four, we built a mini eCommerce site that sold "magical items". Users are able to browse the collection, read reviews and add an item to their cart. We built our database and hosted it on Heroku for all API calls.</p>
                   <p>Built using Express, Node.js, React, and Bootstrap.</p>
-                      <a href="https://swallsy.github.io/Magic-Shoppe-Project/" className="live-btn" target="_blank">Live Site</a>
+                      <a href="http://magicshoppe.surge.sh/" className="live-btn" target="_blank">Live Site</a>
                       <a href="https://github.com/swallsy/Magic-Shoppe-Project" className="github-btn" target="_blank" >GitHub</a>
               </div>
           </div>
