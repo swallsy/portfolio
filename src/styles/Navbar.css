@@ -27,7 +27,7 @@
   padding-right: 1em;
 }
 
-@media screen and (max-device-width: 545px)  {
+@media screen and (max-width: 545px)  {
   #navigation-area {
     display: flex;
     flex-direction: column;

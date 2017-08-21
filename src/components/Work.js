@@ -48,17 +48,17 @@ export default class Work extends Component {
           </div>
 
 
-          <div className="row" >
+          <div className="row project" >
               <img className="d-block img-fluid col-md-8 project-img" src={mysteryWordsImg} alt="First slide" />
               <div className="col-md-4" id="project-info">
                   <h5>Mystery Words</h5>
                   <p>Players guess letters until they are able to guess the correct word. If they miss 8 letters, they lose. The app utilizes Apple's dictionary and gives players an option of Easy, Medium or Hard words.</p>
                   <p>Technologies: Node.js, Express, Mustache</p>
                     <a href="https://pure-citadel-81453.herokuapp.com/start" className="live-btn" target="_blank">Live Site</a>
-                    <a href="https://github.com/swallsy/mystery_word_game" className="github-btn" target="_blank" >GitHub</a>
+                    <a href="https://github.com/swallsy/mystery_word_game" className="github-btn" target="_blank">GitHub</a>
               </div>
           </div>
-
+            <a href="https://github.com/swallsy" className="view-more">View More On Github ></a>
         </div>
       </div>
     )

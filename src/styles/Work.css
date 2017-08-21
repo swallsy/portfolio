@@ -66,5 +66,10 @@
 .github-btn:hover {
   color: white;
   text-decoration: none;
-  background-color: #55CCC2;
+  background-color: #FF6663;
+}
+
+.view-more {
+  text-align: right;
+  color: black;
 }

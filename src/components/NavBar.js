@@ -8,7 +8,7 @@ export default class NavBar extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <nav className="row" id="navigation-area">
+        <nav className="navbar row" id="navigation-area">
           <a href="#about" className="nav-link">
             ABOUT
           </a>

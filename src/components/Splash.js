@@ -53,7 +53,7 @@ export default class Splash extends Component {
       return (
         <div className="splash">
           <div className="container">
-            <section className="col-8-md splash-content">
+            <section className="col-12-md splash-content">
               <div className="row">
                 <h1 className="splash-words animated fadeOut fadeIn">
                 Hi, I'm Sara
@@ -68,7 +68,7 @@ export default class Splash extends Component {
          <div className="splash">
            <div className="container">
              <div className="row">
-               <section className="col-8-md splash-content">
+               <section className="col-12-md splash-content">
                  <h1 className="splash-words animated fadeOut fadeIn">
                    I design and build websites
                  </h1>
@@ -82,7 +82,7 @@ export default class Splash extends Component {
           <div className="splash">
             <div className="container">
               <div className="row">
-                <section className="col-8-md splash-content" id="frame3">
+                <section className="col-12-md splash-content" id="frame3">
                   <h1 className="splash-words animated fadeOut fadeIn">
                     using Javascript and <i className="fa fa-heart" id="heart" aria-hidden="true"></i>
                   </h1>
