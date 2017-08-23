@@ -19,8 +19,8 @@ export default class Work extends Component {
                   <h5>Etsy Homepage</h5>
                   <p>As a class, we split into four groups. Each group was responsible for a section of the Etsy site. We leveraged Etsy's API to dynamically populate accordingly. My team focused on the Homepage and Navigation Menu. I specifically built the Carousel, Shop by Category, and Recent Review sections.</p>
                   <p>Technologies: React, Bootstrap</p>
-                    <a href="http://etsy-project.surge.sh/" className="live-btn" target="_blank">Live Site</a>
-                    <a href="https://github.com/swallsy/Etsy-Project" className="github-btn" target="_blank">GitHub</a>
+                    <a href="http://etsyclassproject.surge.sh/" className="live-btn" target="_blank">Live Site</a>
+                    <a href="https://github.com/swallsy/TIY-Etsy-Final" className="github-btn" target="_blank">GitHub</a>
               </div>
           </div>
 
