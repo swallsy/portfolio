@@ -3,7 +3,6 @@
   color: white;
   height: 100vh;
   position: relative;
-  bottom: -3px;
 }
 
 #contact h2 {
@@ -19,10 +18,22 @@
   margin-left: 30px;
 }
 
+#contact-info p {
+  margin-top: -2em;
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Lato';
+  letter-spacing: .05em;
+  font-weight: 300;
+  padding: 3em 1em 1em 1em;
+}
+
 .social-icons {
   font-size: 80px;
+  padding: .2em;
   color: white;
-  margin-right: 40px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .social-icons:hover {
@@ -41,29 +52,24 @@
 #contact-info {
     margin-top: -2em;
     border: solid 2px white;
-    padding: 3em;
+    padding: 2em 1em;
 }
 
-#name {
-  font-weight: 300;
-  padding: 5px;
+i {
+  text-align: center;
 }
 
-#contact p {
-  font-family: 'Lato';
-  letter-spacing: 2px;
-  font-size: 20px;
-  font-weight: 300;
+#name p {
+  padding-top: 1em;
 }
 
 #icons {
   display: flex;
-  padding-left: 40px;
+  justify-content: space-around;
 }
 
 #name-and-links {
   display: flex;
-  margin-top: 3em;
 }
 
 @media (max-width: 545px) {
@@ -72,5 +78,9 @@
   }
   #icons {
     padding: .1em;
+  }
+
+  .social-icons {
+    margin-right: 20px;
   }
 }

@@ -1,6 +1,6 @@
 #work {
-  background-color: #f0f8ff;
-  color: black;
+  background-color: black;
+  color: white;
   padding-top: 7em;
   padding-bottom: 6em;
   margin-left: auto;
@@ -10,6 +10,7 @@
 #work h2 {
   padding-bottom: 40px;
   text-align: left;
+  padding-left: 30px;
 }
 
 #work h5 {
@@ -37,21 +38,22 @@
 
 .project-info {
   border-bottom: solid black 1px;
+  padding-bottom: 10px;
 }
 
 .live-btn  {
-  background-color: black;
+  background-color: white;
   border-radius: 10px;
   padding: 10px;
-  color: white;
+  color: black;
   margin-right: 20px;
 }
 
 .github-btn {
-  background-color: black;
+  background-color: white;
   border-radius: 10px;
   padding: 10px;
-  color: white;
+  color: black;
   margin-right: 20px;
     width: 100px;
 }
@@ -72,4 +74,16 @@
 .view-more {
   text-align: right;
   color: black;
+}
+
+@media (max-width: 545px) {
+  #work {
+    padding: 4em 1em 3em 1em;
+  }
+  #work h2 {
+    padding-left: 0px;
+  }
+  #work h5  {
+    padding-top: 1em;
+  }
 }

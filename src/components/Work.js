@@ -12,8 +12,8 @@ export default class Work extends Component {
     return (
       <div id="work">
         <div className="container">
-
-          <div className="row project" >
+          <h2>Work</h2>
+          <div className="row project" >    
               <img className="d-block img-fluid col-md-8 project-img" src={etsyImg} alt="First slide" />
               <div className="col-md-4" id="project-info">
                   <h5>Etsy Homepage</h5>

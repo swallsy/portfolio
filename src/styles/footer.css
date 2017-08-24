@@ -6,12 +6,11 @@
 }
 
 .solid-footer p {
-  line-height: 80px;
+  line-height: 90px;
   margin-bottom: 0;
   text-align: center;
 }
 
 #footer-image {
-  bottom: -2px;
   width: 100%;
 }
