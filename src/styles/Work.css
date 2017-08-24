@@ -1,16 +1,22 @@
 #work {
-  background-color: black;
-  color: white;
+  background-color: #23212E;
   padding-top: 7em;
   padding-bottom: 6em;
   margin-left: auto;
   margin-right: auto;
+  color: white;
 }
 
 #work h2 {
   padding-bottom: 40px;
   text-align: left;
   padding-left: 30px;
+}
+
+#work p {
+  font-weight: 300;
+  color: #ddd;
+  padding-bottom: 20px;
 }
 
 #work h5 {
@@ -73,7 +79,11 @@
 
 .view-more {
   text-align: right;
-  color: black;
+  color: rgba(255, 255, 255, .9);
+}
+
+.view-more:hover {
+  color: white;
 }
 
 @media (max-width: 545px) {
