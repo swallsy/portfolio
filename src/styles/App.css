@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 p {
   font-size: 1em;
   font-family: 'Lato';
