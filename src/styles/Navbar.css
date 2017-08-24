@@ -31,8 +31,10 @@
   .nav-link {
     font-size: .8em;
     letter-spacing: .2em;
+    line-height: 60px;
   }
   #navigation-area {
     height: 60px;
+    align-items: center;
   }
 }
