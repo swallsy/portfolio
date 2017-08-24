@@ -44,3 +44,16 @@
   transform: translate(-50%, -50%);
   text-align: left;
 }
+
+@media (max-width: 545px) {
+  #text-container {
+    top: 0;
+    left: 0;
+    transform: none;
+    margin-top: 1em;
+  }
+  #about-me-text {
+    font-size: 1em;
+    padding: 3em 1em 1em 1em;
+  }
+}

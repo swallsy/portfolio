@@ -46,7 +46,7 @@
 
 #name {
   font-weight: 300;
-    padding: 5px;
+  padding: 5px;
 }
 
 #contact p {
@@ -64,4 +64,13 @@
 #name-and-links {
   display: flex;
   margin-top: 3em;
+}
+
+@media (max-width: 545px) {
+  #name-and-links {
+    flex-direction: column;
+  }
+  #icons {
+    padding: .1em;
+  }
 }

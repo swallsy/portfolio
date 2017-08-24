@@ -51,3 +51,13 @@
 .info-item:hover {
   text-decoration: line-through;
 }
+
+@media (max-width: 545px) {
+  #triangle-image {
+    margin-top: 59px;
+    margin-bottom: 4em;
+  }
+  #main-menu {
+    height: auto;
+  }
+}
