@@ -18,9 +18,9 @@ export default class Contact extends Component {
                   Front-End Developer<br/>
                   smwall84@gmail.com</p>
                   <div id="icons">
-                    <a href="https://github.com/swallsy"><i className="fa fa-github-square social-icons" id="github" aria-hidden="true"></i></a>
-                    <a href="https://www.linkedin.com/in/saramorganwall/"><i className="fa fa-linkedin-square social-icons" aria-hidden="true"></i></a>
-                    <a href="mailto:smwall84@gmail.com"><i className="fa fa-envelope-square social-icons" aria-hidden="true"></i></a>
+                    <a href="https://github.com/swallsy" target="_blank"><i className="fa fa-github-square social-icons" id="github" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/saramorganwall/" target="_blank"><i className="fa fa-linkedin-square social-icons" aria-hidden="true"></i></a>
+                    <a href="mailto:smwall84@gmail.com" target="_blank"><i className="fa fa-envelope-square social-icons" aria-hidden="true"></i></a>
                   </div>
                </div>
             </div>

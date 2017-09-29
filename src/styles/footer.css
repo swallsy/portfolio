@@ -9,6 +9,9 @@
   line-height: 90px;
   margin-bottom: 0;
   text-align: center;
+  font-weight: lighter;
+  font-size: .8em;
+  letter-spacing: .1em;
 }
 
 #footer-image {

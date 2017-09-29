@@ -1,6 +1,6 @@
 #navigation-area {
   background-color: black;
-  height: 80px;
+  height: 100px;
   display: flex;
   justify-content:  center;
   position: fixed;
@@ -9,32 +9,28 @@
 }
 
 .nav-link {
-  color: rgba(255, 255, 255, .8);
-  line-height: 80px;
-  /*padding-left: 2em;
-  padding-right: 2em;*/
+  color: rgba(252, 252, 252, 0.8);
+  line-height: 100px;
+  display: inline;
   font-size: 1em;
   font-family: 'Lato';
   letter-spacing: .5em;
+  padding: 0px 100px;
 }
 
 .nav-link:hover {
   color: white;
-
+  text-align: center;
 }
-
-/*#last-item {
-  padding-right: 1em;
-}*/
 
 @media (max-width: 545px)  {
   .nav-link {
     font-size: .8em;
     letter-spacing: .2em;
-    line-height: 60px;
+    line-height: 80px;
   }
   #navigation-area {
-    height: 60px;
+    height: 80px;
     align-items: center;
   }
 }

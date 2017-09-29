@@ -19,7 +19,7 @@ export default class Footer extends Component {
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-12 solid-footer">
-              <p>Copyright 2017 © | Sara Morgan Wall</p>
+              <p>©  2017  Sara Morgan Wall</p>
             </div>
           </div>
         </div>
