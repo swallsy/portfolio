@@ -1,26 +1,78 @@
-#navigation-area {
+.navigation-area {
   background-color: black;
   height: 100px;
   display: flex;
-  justify-content:  center;
   position: fixed;
   width: 100vw;
   z-index: 100;
 }
 
-.nav-link {
-  color: rgba(252, 252, 252, 0.8);
-  line-height: 100px;
-  display: inline;
-  font-size: 1em;
-  font-family: 'Lato';
-  letter-spacing: .5em;
-  padding: 0px 100px;
+.navbar-toggler .icon-bar {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: white;
+  border-radius: 1px;
+  margin-bottom: 8px;
 }
 
-.nav-link:hover {
-  color: white;
+#hamburger-button {
+  background-color: black;
+  border: none;
+  z-index: 100;
+  position: relative;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+
+#hamburger-button:active {
+  outline: none;
+}
+
+#hamburger-button:focus {
+  outline: none;
+}
+.hamburger-navbar {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  margin:0;
   text-align: center;
+  color: white;
+  padding-top: 15%;
+}
+
+.hamburger-navbar a {
+  color: white;
+  font-size: 4em;
+}
+
+.hamburger-navbar a:hover {
+  color: #C8EFEB;
+}
+
+.nav-toggle span, .nav-toggle span:before, .nav-toggle span:after{
+  transition: all 500ms ease-in-out;
+}
+
+.nav-toggle.is-active span {
+  background-color: transparent;
+}
+
+.nav-toggle.is-active span:before {
+  transform: rotate(45deg);
+}
+
+.nav-toggle.is-active span:after {
+  transform: rotate(-45deg);
+}
+
+.nav-toggle.is-active span:before, .nav-toggle.active span:after {
+  top: 0;
 }
 
 @media (max-width: 545px)  {
@@ -29,8 +81,16 @@
     letter-spacing: .2em;
     line-height: 80px;
   }
-  #navigation-area {
+  .navigation-area {
     height: 80px;
     align-items: center;
   }
+  .hamburger-navbar a {
+    color: white;
+    font-size: 2.5em;
+  }
+  .hamburger-navbar {
+    padding-top: 40%;
+  }
+
 }
