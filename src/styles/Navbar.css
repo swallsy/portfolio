@@ -1,10 +1,13 @@
 .navigation-area {
   background-color: black;
   height: 100px;
-  display: flex;
   position: fixed;
   width: 100vw;
   z-index: 100;
+}
+
+.navbar > .container {
+  flex-direction: row-reverse;
 }
 
 .navbar-toggler .icon-bar {
@@ -13,8 +16,44 @@
   height: 2px;
   background-color: white;
   border-radius: 1px;
-  margin-bottom: 8px;
+  margin-bottom:  6px;
+  transition: all .3s;
 }
+
+.navbar-collapse {
+  transition: all 1s;
+}
+
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+.navbar-toggler:hover {
+  background: transparent !important;
+}
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+
 
 #hamburger-button {
   background-color: black;
@@ -32,9 +71,10 @@
 #hamburger-button:focus {
   outline: none;
 }
+
 .hamburger-navbar {
   background-color: black;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   position: fixed;
   top: 0;
@@ -55,24 +95,8 @@
   color: #C8EFEB;
 }
 
-.nav-toggle span, .nav-toggle span:before, .nav-toggle span:after{
-  transition: all 500ms ease-in-out;
-}
-
-.nav-toggle.is-active span {
-  background-color: transparent;
-}
-
-.nav-toggle.is-active span:before {
-  transform: rotate(45deg);
-}
-
-.nav-toggle.is-active span:after {
-  transform: rotate(-45deg);
-}
-
-.nav-toggle.is-active span:before, .nav-toggle.active span:after {
-  top: 0;
+#master#hamburger-button {
+  justify-content: flex-end;
 }
 
 @media (max-width: 545px)  {
@@ -92,5 +116,4 @@
   .hamburger-navbar {
     padding-top: 40%;
   }
-
 }
